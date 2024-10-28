@@ -87,6 +87,7 @@ body{
 
 .contactInfo ul{
    position: relative; 
+   list-style: none; 
 }
 
 .contactInfo ul li{ 
@@ -106,6 +107,16 @@ body{
 .contactInfo ul li span{ 
     color: #fff;
     font-weight: 300;
+}
+
+.contactInfo a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.contactInfo a:hover {
+    text-decoration: none; 
+    color: #007BFF; 
 }
 
 .contactInfo.education li{
